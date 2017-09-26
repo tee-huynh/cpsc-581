@@ -55,7 +55,7 @@ p {
   text-justify: inter-word; 
 }
 
-#about {
+#resume {
   height:175px;
   width:60px;
   margin:0 auto;
@@ -63,7 +63,7 @@ p {
   overflow: hidden;
 }
 
-#about img {
+#resume img {
   position:absolute;
   margin-top:-1em;
   -webkit-transition: opacity 1s ease-in-out;
@@ -73,7 +73,7 @@ p {
   right: 11.26cm;
 }
 
-#about img.top:hover {
+#resume img.top:hover {
   opacity:0;
 }
 

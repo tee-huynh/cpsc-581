@@ -9,7 +9,7 @@ h1 {
 }
 
 h2 { 
-  color: #a58497; 
+  color: #ffb7c3; 
   font-family: 'Trocchi', sans-serif; 
   font-size: 30px; 
   font-weight: 300; 
@@ -140,55 +140,20 @@ p {
   opacity:0;
 }
 
-.facebook {
-  background: url(https://i.imgur.com/maJ5Zwv.png) #fff;
-  border-radius: 50%;
-  height: 100px;
-  width: 100px;
-  transition: all .3s ease-in-out;
+#download {
+  height:250px;
+  width:250px;
 }
 
-.facebook:hover {
-  border-radius:0;  
-  cursor: pointer;
+#download img {
+  position:absolute;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+  margin-top: -14em;
 }
 
-.linkedin {
-  background: url(https://i.imgur.com/3ajrofx.png) #fff;
-  border-radius: 50%;
-  height: 100px;
-  width: 100px;
-  transition: all .3s ease-in-out;
-}
-
-.linkedin:hover {
-  border-radius:0;  
-  cursor: pointer;
-}
-
-
-.git {
-  background: url(https://i.imgur.com/JWsSKse.png) #fff;
-  border-radius: 50%;
-  height: 100px;
-  width: 100px;
-  transition: all .3s ease-in-out;
-}
-
-.git:hover {
-  border-radius:0;  
-  cursor: pointer;
-}
-
-.mail {
-  background: url(https://i.imgur.com/a6L6YOJ.png) #fff;
-  border-radius: 50%;
-  height: 100px;
-  width: 100px;
-  transition: all .3s ease-in-out;
-}
-
-.mail:hover {
-  border-radius:0;  
-  cursor: pointer;
+#download img.top:hover {
+  opacity:0;
 }
