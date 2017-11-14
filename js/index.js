@@ -140,3 +140,32 @@ function showSlides5(n) {
   dots5[slideIndex5-1].className += " active";
 
 }
+
+
+var slideIndex7 = 1;
+showSlides7(slideIndex7);
+
+function plusSlides7(n) {
+  showSlides7(slideIndex7 += n);
+}
+
+function currentSlide7(n) {
+  showSlides7(slideIndex7 = n);
+}
+
+function showSlides7(n) {
+  var i7;
+  var slides7 = document.getElementsByClassName("mySlides7");
+  var dots7 = document.getElementsByClassName("dot7");
+  if (n > slides7.length) {slideIndex7 = 1} 
+  if (n < 1) {slideIndex7 = slides7.length}
+  for (i7 = 0; i7 < slides7.length; i7++) {
+      slides7[i7].style.display = "none"; 
+  }
+    for (i7 = 0; i7 < dots7.length; i7++) {
+      dots7[i7].className = dots7[i7].className.replace(" active", "");
+  }
+  slides7[slideIndex7-1].style.display = "block"; 
+  dots7[slideIndex7-1].className += " active";
+
+}
